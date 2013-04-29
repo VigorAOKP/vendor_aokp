@@ -28,11 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     windowsmgr.max_events_per_sec=240 \
     ro.kernel.android.checkjni=0 \
-<<<<<<< HEAD
-    persist.sys.root_access=3 
-=======
     persist.sys.root_access=3
->>>>>>> 680116eaced5e530259056d1c10097cd0b523221
 
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
